@@ -25,7 +25,7 @@ function setup() {
   createCanvas(w, h);
   current = createVector(0,0);
   previous = createVector(0,0);
-  let url = "http://34.235.162.163:8000/parsed_loc.json"
+  let url = "../parsed_loc.json"
   loadJSON(url,loadData);
 
 };
