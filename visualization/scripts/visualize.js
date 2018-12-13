@@ -31,7 +31,7 @@ function setup() {
 };
 function loadData(data){
     console.log("loading data")
-    console.log("data length" + data.length,'jsonp');
+    console.log("data length" + data.length);
     positions = data;
     for(var i=0; i<data.length;i++){
         pos_x.push(data[i].x);
