@@ -25,7 +25,7 @@ function setup() {
   createCanvas(w, h);
   current = createVector(0,0);
   previous = createVector(0,0);
-  let url = "../parsed_loc.json"
+  let url = "https://s3.amazonaws.com/decawave-sensor-readings/parsed_loc.json"
   loadJSON(url,loadData);
 
 };
