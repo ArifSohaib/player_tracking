@@ -1,0 +1,6 @@
+Visualize player location using p5js:
+1. Load the motion file
+2. For each sensor, make an ellipse(circle) 
+3. in the draw function function at each timestep, read the value from the file and redraw the ellipse
+4. remove the previous ellipse
+5. Use different color for each ellipse to differenciate
